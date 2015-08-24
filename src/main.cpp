@@ -16,7 +16,7 @@ int main(int argc, char *argv[]){
   SDL_WM_SetCaption("HELLO SDL!", NULL);
 
   // ウィンドウの初期化
-  gScreenSurface = SDL_SetVideoMode(300,200,24,SDL_SWSURFACE);
+  gScreenSurface = SDL_SetVideoMode(640,480,32,SDL_HWSURFACE);
 
   // 終了イベント待ち
   while(1){

@@ -1,0 +1,9 @@
+language: cpp
+compiler:
+    - gcc-4.8
+script:
+    - make && ./sdl_game 
+install:
+    - sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
+    - sudo apt-get -qq update
+    - sudo apt-get -qq install g++-4.8
