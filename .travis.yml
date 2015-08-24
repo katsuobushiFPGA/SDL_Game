@@ -1,6 +1,6 @@
 language: cpp
 compiler:
-    - gcc-4.8
+    - g++-4.8
 script:
     - make && ./sdl_game 
 install:
