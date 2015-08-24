@@ -1,6 +1,6 @@
 #Makefile
 CXX=g++
-CXXFLAGS    = -std=c++11 -Wall -O2
+CXXFLAGS    = -std=gnu++11 -Wall -O2
 LDFLAGS     = -lSDL
 #LIBS        = None
 INSTALLPATH = /home/hiroto/bin/
