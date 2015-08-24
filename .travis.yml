@@ -12,5 +12,5 @@ before_install:
 install:
 - sudo apt-get install -qq gcc-4.8
 - sudo apt-get install -qq g++-4.8
-- export CC=gcc-4.8
-- export CXX=g++-4.8
+- export gcc=gcc-4.8
+- export g++=g++-4.8
