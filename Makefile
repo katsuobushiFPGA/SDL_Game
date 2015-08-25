@@ -1,7 +1,7 @@
 subdirs := src
 .PHONY: all
 all :
-	(cd src; make )
+	(cd src; make)
 
 test:
 	(cd test;make)

@@ -1,3 +1,6 @@
+#gitignore
+!.gitigore
+
 # Compiled Object files
 obj/
 *.slo
