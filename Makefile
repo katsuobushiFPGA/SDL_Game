@@ -3,6 +3,9 @@ subdirs := src
 all :
 	(cd src; make )
 
+test:
+	(cd test;make)
+
 clean:
 	(cd src; make clean)
 
