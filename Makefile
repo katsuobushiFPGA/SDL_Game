@@ -2,7 +2,7 @@ subdirs := src
 .PHONY: all
 all :
 	(cd src; make)
-
+.PHONY: test
 test:
 	(cd test;make)
 
