@@ -1,4 +1,4 @@
-#include "CppUTest/CommandLineTestRunner.h"
+#include "/usr/include/CppUTest/CommandLineTestRunner.h"
 #include "../src/include/Sample.h"
 
 TEST_GROUP(TestBullet)
