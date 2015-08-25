@@ -27,3 +27,7 @@ obj/
 *.exe
 *.out
 *.app
+
+#doxygen
+html/
+latex/

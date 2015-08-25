@@ -1,6 +1,15 @@
 #include <cstdlib>
 #include <SDL/SDL.h>
 
+/*!
+ * \file
+ * \brief mainクラス
+ *
+ * mainクラスです。
+ *
+ * \author hiroto
+ * \date 2015/08/25
+ */ 
 int main(int argc, char *argv[]){
 
   SDL_Surface *gScreenSurface;
