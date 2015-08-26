@@ -3,7 +3,7 @@ compiler: g++-4.8
 
 script:
     - make CXX=g++-4.8 
-      #    - make test CXX=g++-4.8
+    - make test CXX=g++-4.8
 
 before_install:
 - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
