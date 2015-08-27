@@ -1,7 +1,7 @@
 #Makefile
 CXX = g++
 CXXFLAGS=-std=c++11 -Wall
-LDLIBS = -lcppunit -lSDL
+LDLIBS = -lcppunit -lSDL -lSDL_image
 INCLUDE= -I../src/include
 OBJS = Test.o
 

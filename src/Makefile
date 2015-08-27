@@ -1,7 +1,7 @@
 #Makefile
 CXX=g++
 CXXFLAGS    = -std=c++11 -Wall -O2
-LDFLAGS     = -lSDL
+LDFLAGS     = -lSDL -lSDL_image
 #LIBS        = None
 INSTALLPATH = /home/hiroto/bin/
 INCLUDE     = -I include
